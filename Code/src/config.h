@@ -41,26 +41,6 @@ const char *OTAName = DEVICE_NAME;
 const char *OTAPassword = "layzspam0dule";
 
 /*
- * Web UI Configuration
- *
- * You can modify this via Web UI.
- */
-/** get or set the state of displaying the "Temperature" section */
-bool showSectionTemperature = true;
-/** get or set the state of displaying the "Display" section */
-bool showSectionDisplay = true;
-/** get or set the state of displaying the "Control" section */
-bool showSectionControl = true;
-/** get or set the state of displaying the "Buttons" section */
-bool showSectionButtons = true;
-/** get or set the state of displaying the "Timer" section */
-bool showSectionTimer = true;
-/** get or set the state of displaying the "Totals" section */
-bool showSectionTotals = true;
-/** get or set the state of displaying slider or selector */
-bool useControlSelector = false;
-
-/*
  * WiFi Configuration Manager
  *
  * A fresh/clean ESP needs WiFi credentials to be connected to a network.
