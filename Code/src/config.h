@@ -28,9 +28,9 @@ int notification_time = 32;
 /** get or set the state of the web authentication */
 bool enableWebAuth = false;
 /** get or set the username for web authentication */
-String authUsername = "username";
+String authUsername = "admin";
 /** get or set the password for web authentication */
-String authPassword = "password";
+String authPassword = "layzspam0dule";
 
 /*
  * OTA Service Credentials
@@ -38,7 +38,7 @@ String authPassword = "password";
 /** get the name for the OTA service */
 const char *OTAName = DEVICE_NAME;
 /** get the password for the OTA service  */
-const char *OTAPassword = "esp8266";
+const char *OTAPassword = "layzspam0dule";
 
 /*
  * Web UI Configuration
@@ -127,7 +127,7 @@ IPAddress ip4DnsSecondary(8,8,4,4);
 /** get or set the state of the MQTT server connection */
 bool useMqtt = false;
 /** get or set the MQTT server IP address */
-IPAddress mqttIpAddress(192,168,0,20);
+IPAddress mqttIpAddress(192,168,0,100);
 /** get or set the MQTT server port */
 int mqttPort = 1883;
 /** get or set the MQTT server username */
